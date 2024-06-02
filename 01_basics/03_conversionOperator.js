@@ -16,7 +16,7 @@ let isLoggedIn = 0
 
 let booleanIsLoggedIn = Boolean (isLoggedIn)
 
-console.log(booleanIsLoggedIn);
+//console.log(booleanIsLoggedIn);
 
 
 
@@ -31,5 +31,44 @@ if The Value is o {false}    &     if The Value is 1 {True}
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);  
+
+
+
+// *****************************************************Operations****************************************************************************//
+
+let Value = 4
+let NegativeValue = -Value
+//console.log(NegativeValue);
+
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2/2);
+//console.log(2**2);
+//c//onsole.log(2%2);
+
+
+//ADD String 
+
+let str1 = "Hello"
+let str2 = " Soumitra"
+let str3 = str1 + str2
+//console.log(str3);
+
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let GameCounter = 100
+GameCounter++;
+console.log(GameCounter);
+
+
+
+
+
+
+
