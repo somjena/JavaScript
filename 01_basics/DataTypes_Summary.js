@@ -37,3 +37,32 @@ console.log(typeof bigNumber);
  const MyFunction = function(){
     console.log("Hello World");
  }
+
+
+
+
+ //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+ //Stack (Primitive)   &       Heap (Non-Primitive)
+
+ let MyWebsiteName = "som vlogs.in"
+ let anotherwebsite = MyWebsiteName
+
+ anotherwebsite = "soms world"
+
+ console.log(MyWebsiteName);
+ console.log(anotherwebsite);
+
+
+
+ let UserOne = {
+   email :"somjena@gmail.com",
+   upi:"6371326214@ybl"
+ }
+
+ let UserTwo = UserOne
+ UserOne.email = "Rintu@gmail.com"
+UserOne.upi = "som@paytm"
+
+ console.log(UserOne);
+ console.log(UserTwo);
