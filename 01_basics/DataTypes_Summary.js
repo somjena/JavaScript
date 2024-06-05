@@ -24,7 +24,7 @@ console.log(typeof bigNumber);
 
 // Reference Type [Non Premitive]
 
- // Types: Array, Onjects, Functions
+ // Types: Array, Objects, Functions
 
  const heros = ["SahktiMan","Nagraj","doga"];
  let myObj =
