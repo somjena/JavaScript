@@ -6,3 +6,6 @@ console.log(a==b);//it will return true
 //But 
 console.log(a===b);// it will return False
 
+console.log(a!==b);// it will return true
+
+
